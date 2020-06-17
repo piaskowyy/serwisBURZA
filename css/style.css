@@ -1,0 +1,202 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  overflow-y:scroll;
+}
+#stopka {
+  width: 100%;
+  height: auto;
+  background-color: #A6A6A6;
+  clear: both;
+  font-family: 'MuseoModerno', cursive;
+  text-align: center;
+  color: #D0D3D4;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #34495E;
+}
+#baner {
+  width: 94.8%;
+  height: 80px;
+  margin-left: 0.2%;
+  float: left;
+  text-align: center;
+  border-bottom: 2px groove #969798;
+}
+#menu {
+  width: 5%;
+  height: 80px;
+  float: left;
+}
+#ikonamenu {
+  padding-top: 25px;
+}
+#pomenu {
+  width: 100%;
+  height: 2px;
+  clear: both;
+}
+#art {
+  width: 10%;
+  height: auto;
+  border-color: red;
+  margin-left: 15%;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1%;
+}
+.artblok {
+  width: 22%;
+  height: 250px;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  font-size: 20px;
+}
+.naglowek {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.cennik {
+  width: 20%;
+  height: 250px;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+}
+#cena {
+  width: 100%;
+  height: 250px;
+}
+.cenna {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 3%;
+  text-align: left;
+  margin-left: 15%;
+}
+#uslugan {
+  width: auto;
+  height: auto;
+  clear: both;
+}
+#uslugad {
+  width: auto;
+  height: auto;
+  clear: both;
+}
+#uslugai {
+  width: auto;
+  height: auto;
+  clear: both;
+}
+#uslugal {
+  width: auto;
+  height: auto;
+  clear: both;
+}#uslugam {
+  width: auto;
+  height: auto;
+  clear: both;
+}
+.usluga2 {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+}
+.usluga3 {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: 12%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+#main {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+#ocena {
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+}
+#ocenaopis {
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  color: #979A9A;
+  margin-top: 0.3%;
+}
+#komblok {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  margin-top: 3%;
+}
+#ocenakom {
+  width: 30%;
+  height: auto;
+  border: 3px solid #808B96;
+  margin-left: 34%;
+  margin-top: 3%;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+#komchmura {
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-size: 22px;
+  border-bottom: 3px solid #808B96;
+  margin-bottom: 1%;
+}
+.nick {
+  width: auto;
+  height: auto;
+  text-align: right;
+  font-size: 22px;
+  float: right;
+  margin-right: 1%;
+}
+#star {
+  width: auto;
+  height: auto;
+  clear: both;
+  text-align: right;
+  margin-top: 3%;
+}
+.kontakt {
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+#onasblok {
+  width: 90%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
