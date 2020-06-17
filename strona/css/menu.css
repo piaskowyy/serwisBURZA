@@ -1,0 +1,80 @@
+#menu, #menu ul, #menu ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+#menu {
+  font-size:20px;
+  height:100px;
+  line-height:2em;
+  text-align:center;
+}
+#menu a {
+  display:block;
+  text-decoration:none;
+  color:#000;
+  padding:0 5px;
+}
+#menu > li {
+  float:left;
+  width:100px;
+  margin-left:1px;
+  height:100px;
+  border-right: 2px groove #969798;
+  border-bottom: 2px groove #969798;
+}
+#menu > li:first-child {
+  margin-left:0;
+}
+#menu > li:hover {
+  background-color:#D3D3D3;
+}
+#menu > li:hover > a {
+  color:#09C;
+}
+#menu > li:hover > ul {
+  display:block;
+}
+#menu > li > ul {
+  display:none;
+}
+#menu > li > ul > li {
+  position:relative;
+  width:150px;
+  background-color:#E6E6E7;
+  text-align:left;
+}
+#menu > li > ul > li > a {
+  border-top:1px solid #FFF;
+}
+#menu > li > ul > li:hover {
+  background-color:#DDD;
+}
+#menu > li > ul > li:hover > a {
+  color:#09C;
+}
+#menu > li > ul > li > ol {
+  display:none;
+  width:150%;
+  position:absolute;
+  left:100%;
+  margin-top:-100px;
+}
+#menu > li > ul > li:hover > ol {
+  display:block;
+}
+#menu > li > ul > li > ol > li {
+  background-color:#CCC;
+}
+#menu > li > ul > li > ol > li > a {
+  border-top:1px solid #FFF;
+  border-left:1px solid #FFF;
+}
+#menu > li > ul > li > ol > li > a:hover {
+  color:#09C;
+}
+#menu .prawo {
+  background-image:url('https://webkod.pl/images/right.png');
+  background-repeat:no-repeat;
+  background-position:98% center;
+}
